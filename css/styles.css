@@ -39,7 +39,7 @@ body {
 .list {
   list-style: none;
 }
-.header-link {
+.navigat {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -49,12 +49,12 @@ body {
   color: var(--main-color);
 }
 
-.link. link {
+.navigat.link {
   text-decoration: none;
 }
 
-.header-link:hover,
-.header-link:focus {
+.navigat:hover,
+.navigat:focus {
   color: var(--color-active);
 }
 
