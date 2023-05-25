@@ -19,7 +19,12 @@ body {
 
 /* --------------Logo------------- */
 
-.link {
+.header-span {
+  color: var(--main-color);
+}
+
+/* --------------------Header------------- */
+.logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -30,12 +35,6 @@ body {
   color: var(--bcg-btn-main);
   text-decoration: none;
 }
-
-.header-span {
-  color: var(--main-color);
-}
-
-/* --------------------Header------------- */
 .list {
   list-style: none;
 }
@@ -49,7 +48,7 @@ body {
   color: var(--main-color);
 }
 
-.navigat.link {
+.link {
   text-decoration: none;
 }
 
@@ -236,6 +235,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  text-decoration: none;
 }
 
 .examples-text {
@@ -243,4 +243,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  text-decoration: none;
 }
