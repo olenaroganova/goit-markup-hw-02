@@ -31,7 +31,7 @@ body {
   text-decoration: none;
 }
 
-.link span {
+.header-span {
   color: var(--main-color);
 }
 
@@ -113,7 +113,9 @@ body {
 }
 
 /* -----------------Advantages------------ */
-
+.advantages {
+  color: var(--main-color);
+}
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -192,7 +194,7 @@ body {
   text-decoration: none;
 }
 
-.footer-logo span {
+.footer-span {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -208,11 +210,9 @@ body {
 }
 
 /********************---Portfolio--***********************/
-.filter-list {
-  list-style-type: none;
-}
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -230,9 +230,6 @@ body {
 }
 
 /* ------------------Examples-------------------------- */
-.examples-list {
-  list-style-type: none;
-}
 
 .examples-subtitle {
   font-weight: 500;
